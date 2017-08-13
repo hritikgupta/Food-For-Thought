@@ -4,11 +4,6 @@ var tempUnit = 'C';
 var ap = "https://fcc-weather-api.glitch.me/api/current?";
 var lat, lon;
 
-var name = prompt("Please enter your name", "Your Name");
-if (name != null){
-    document.getElementById("welcome").innerHTML =
-    "Hello " + name + "! How are you today?";
-}
 
 function randomQuote() {
     flag = 0;
